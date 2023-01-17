@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
+import App from './App';
 // import reportWebVitals from './reportWebVitals';
 //import Header from './components/homepage/Header';
 //  import Info from './components/homepage/Info';
@@ -14,14 +14,14 @@ import './index.css';
 //  import Maininfo from './components/table/Maininfo';
 //  import Main from './components/tablestructure/Main';
     // import Checkboxsample from './components/sampleform/Checkboxsample';
-    import Applicationform from './components/hospitalform/Applicationform';
+    // import Applicationform from './components/hospitalform/Applicationform';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     {/* <App />     */}
+      <App />     
     {/* <Header /> */}
     {/* <Info />   */}
         {/* <Display />  */}
@@ -34,7 +34,7 @@ root.render(
          <Mainpage />   */}
          {/* <Main />  */}
          {/* <Checkboxsample /> */}
-         <Applicationform />
+         {/* <Applicationform /> */}
          
   </React.StrictMode>
 );
